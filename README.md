@@ -40,7 +40,7 @@ Mobile
 
 ### Links
 
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://faq-accordion-ianwilk20.netlify.app/design/index.html)
 
 ## My process
 
