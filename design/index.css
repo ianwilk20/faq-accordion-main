@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "WorkSans";
+    src: url("../assets/fonts/static/WorkSans-Regular.ttf"), format('truetype');
+}
+@font-face {
+    font-family: "WorkSansSemiBold";
+    src: url("../assets/fonts/static/WorkSans-SemiBold.ttf"), format('truetype');
+}
+@font-face {
+    font-family: "WorkSansBold";
+    src: url("../assets/fonts/static/WorkSans-Bold.ttf"), format('truetype');
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url("../assets/images/background-pattern-desktop.svg"), url("../assets/images/");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: rgb(249, 238, 255);
+        height: auto;
+        font-family: "WorkSans", Georgia, serif;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url("../assets/images/background-pattern-mobile.svg"), url("../assets/images/");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: rgb(249, 238, 255);
+        height: auto;
+        font-family: "WorkSans", Georgia, serif;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.faq-container {
+    height: 100vh;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+strong {
+    font-family: "WorkSansBold", Georgia, serif;
+    font-size: medium;
+    color: rgb(48, 22, 51)
+}
+
+p {
+    font-family: "WorkSans", Georgia, serif;
+    font-size: medium;
+    color: rgb(129, 119, 130)
+}
+
+@media only screen and (min-width: 992px) {
+    .faq-card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 40vw;
+        padding: 40px;
+        color: rgb(48, 22, 51);
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .faq-card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        flex-direction: column;
+        width: 70vw;
+        padding: 30px;
+        color: rgb(48, 22, 51);
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .faq-card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        flex-direction: column;
+        width: 85vw;
+        padding: 20px;
+        color: rgb(48, 22, 51);
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .star-img {
+        width: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .star-img {
+        width: 26px;
+    }
+}
+
+.faq-heading {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 46px;
+        font-family: "WorkSansBold";
+        padding-left: 20px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+        font-family: "WorkSansBold";
+        padding-left: 20px;
+        margin: 0;
+    }
+}
+
+.faq-question-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+
+.faq-question {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.faq-question > strong {
+    color: inherit
+}
+
+.faq-question:hover {
+    color: rgb(171, 39, 237);
+    cursor: pointer
+}
+
+.faq-answer {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+hr {
+    border: 0.5px solid rgb(230, 230, 230);
+    margin: 0px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
