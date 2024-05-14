@@ -87,7 +87,8 @@ Non-desktop device support:
           color: rgb(48, 22, 51);
           box-sizing: border-box;
       }
-  }```
+    }
+    ```
 
 
 Position Types:
